@@ -1,0 +1,27 @@
+package ArraysManipulation;
+
+import java.util.ArrayList;
+
+public class ArraylistContd {
+
+	public static void main(String args[]){
+		
+	ArrayList<getsetmeth> records = new ArrayList<getsetmeth>();
+
+	records.add(new getsetmeth(" adi",10.3)); // this method will give the methods of the student
+	records.add(new getsetmeth(" verma",12.3));
+	records.add(new getsetmeth(" hello",11.4));
+	records.add(new getsetmeth(" brother",9.3));
+	records.add(new getsetmeth(" rajeev",3.4));
+	records.add(new getsetmeth(" sahab",1.5));
+	
+
+	
+System.out.println(" names and grades of the students");{
+	for( int i =0; i<records.size();i++){
+		System.out.println("the details are"+ records.get(i));
+	}
+}
+	
+}
+}

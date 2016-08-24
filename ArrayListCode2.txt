@@ -1,0 +1,42 @@
+
+// This code will work with code one , they should be placed under one folder 
+
+
+
+package ArraysManipulation;
+
+
+public class getsetmeth{
+	
+private String myname;
+private double mygudGPA;
+	
+
+ getsetmeth( String newName, double GPA){
+	 myname = newName;
+	 mygudGPA = GPA;
+ }
+ 
+ public String getName(){
+	 return myname;
+ }
+ 
+ public String setName(String realNames){
+	 return myname = realNames;
+ }
+ 
+ public double getGPA(){
+	 return mygudGPA;
+ }
+	
+ public double setGPA(double ActGPA ){
+	 return  mygudGPA = ActGPA;
+ }
+ 
+ @Override
+ 
+ public  String toString(){
+	 return String.format(" my name is %s\n and my grades are %f\n",myname, mygudGPA );
+ }
+}
+
